@@ -1,5 +1,5 @@
 /* バージョンを更新すると、古いファイルを混ぜずに一式を入れ替える。 */
-const VERSION = '1.0.0';
+const VERSION = '1.1.0';
 const BASE = new URL('./',self.location.href).href;
 const PREFIX = 'rokusei-diary-' + encodeURIComponent(new URL(BASE).pathname) + '-';
 const CACHE = PREFIX + VERSION;
